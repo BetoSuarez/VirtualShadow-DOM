@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>Test</title>
+</head>
+<body>
+	<div id="Principal">Hola soy el div Principal</div>
+</body>
+<script type="text/javascript">  
+  var Principal = document.querySelector('#Principal');
+  var root = Principal.createShadowRoot();
+  root.innerHTML='<p>Ahora yo estoy en el div Principal</p>';
+</script>
+</html>
